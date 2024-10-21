@@ -1,8 +1,8 @@
 <?php
 
-    $nome = addcslashes($_POST['nome']);
-    $email = addcslashes($_POST['email']);
-    $celular = addcslashes($_POST['celular']);
+    $nome = htmlspecialchars($_POST['nome']);
+    $email = filter_var($_POST['email']);
+    $celular = htmlspecialchars($_POST['celular']);
 
     $destino = "pedro.henrique.dmm@gmail.com";
     $assunto = "Portfólio";
