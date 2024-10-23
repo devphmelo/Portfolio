@@ -82,7 +82,6 @@ header nav ul li {
 }
 
 
-
 /* Estilo topo do site */
 
 section.site {
@@ -125,6 +124,13 @@ section.site .flex {
         top: 30px;
     }
 }
+
+.site img-site {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
 
 /* Estilo especialidades */
 
@@ -348,15 +354,15 @@ footer .line-footer p a {
 
     /* topo do site  */
     section.site {
-        padding: 20px 8%;
+        padding: 10px 4%;
     }
 
     .site h1 {
         font-size: 30px;
     }
 
-    .site img-site img {
-        width: 100px;
+    .site img-site img{
+        width: 10px;
     }
 
     section.site .flex {
